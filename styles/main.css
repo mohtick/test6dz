@@ -1,0 +1,120 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #808080;
+	height: 100px;	
+}
+
+
+
+.menu {
+	height: 100px;
+	padding-left: 5px;
+	display: flex;
+	align-items: center;
+	border-bottom: 5px solid #808080;
+}
+
+h1 {
+	font-size: 50px;	
+}
+
+.smartphones {
+	height: 200px;
+	font-size: 40px;
+	padding-left: 5px;
+	margin-top: 20px;
+	display: flex;
+	align-items: end;
+	border: 5px solid #2a1fd9;
+	background-image: url("https://www.creativefabrica.com/wp-content/uploads/2022/04/18/Modern-Smartphone-Cellphone-Graphics-29188386-1-1-580x387.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+    	background-size: contain;	
+}
+
+.products {
+	height: 100px;
+	padding-left: 5px;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	
+}
+
+h2 {
+	font-size: 50px;	
+}
+
+
+
+.container {
+	height: 200px;
+	font-size: 50px;
+	display: flex;
+	flex-direction: row;
+	//align-items: end;
+	justify-content: space-between;
+	border: 5px solid #030204;
+	margin-bottom: 20px; 	
+}
+
+.left-row {
+	height: 200px;
+	width: 70%;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	flex-direction: column; 		
+}
+
+.right-row {
+	height: 200px;
+	width: 30%;	
+	display: flex;
+	align-items: end;
+	background-image: url("https://images.ctfassets.net/3s5io6mnxfqz/23Rh1haBMd6oG6RaoVFjpb/e327be6b183cba377d1e46d6c9075420/what-are-consumer-goods.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.top-line {
+	height: 100px;
+	width: 100%;
+	padding-left: 5px;
+	font-size: 40px;
+	display: flex;
+	align-items: end;
+	flex-direction: row;
+		
+}
+
+.bottom-line {
+	height: 100px;
+	width: 100%;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	font-size: 25px;
+	display: flex;
+	align-items: end;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 50px;
+}
+
+footer {
+	background-color: #808080;
+	height: 100px;
+	display: flex;
+	align-items: end;
+} 
+
+footer > p {
+	padding-left: 5px;
+	font-size: 20px;
+	color: #ffffff;	
+}
